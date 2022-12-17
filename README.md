@@ -43,14 +43,14 @@ A Discord bot template based on discordjs@latest.
 
 ## Screenshots
 
-![A Console log of commands loaded](Screenshorts/after_loading_cmd_event.png)
+![A Console log of commands loaded](/Screenshorts/after_loading_cmd_event.png)
 
 If any default errors found while registering commands, it will show here: 
-![A Erros log if any any default error found ](Screenshorts/pingerror.png)
+![A Erros log if any any default error found ](/Screenshorts/pingerror.png)
 
 Sample ping command:
 
-![Sample ping command](Screenshorts/ping.png)
+![Sample ping command](/Screenshorts/ping.png)
 
 
 ## Dependencies
