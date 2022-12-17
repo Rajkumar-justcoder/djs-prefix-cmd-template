@@ -4,7 +4,7 @@ A Discord bot template based on discordjs@latest.
 
 ### About
 - 🏁 A Stater Discord bot template(handler) based on JavaScript.
-- 🏠 Currently by default its Prefix [ `<` ] command Only.
+- 🏠 Currently by default is Prefix comand Only ( default prefix [`<`]).
 
 ## Run locally 
 
