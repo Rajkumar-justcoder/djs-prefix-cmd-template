@@ -1,0 +1,26 @@
+.env
+.env.production
+ReadmeDump.md
+server.js
+/node_modules
+/dump
+/logs
+/.idea
+
+/logs
+
+/.idea
+/dump
+
+/.history
+extracmds/
+extracmds/**
+
+# debug and log files
+npm-debug.log*
+.pnpm-debug.log*
+
+# package manager lock files
+pnpm-lock.yaml 
+package-lock.json
+yarn.lock
