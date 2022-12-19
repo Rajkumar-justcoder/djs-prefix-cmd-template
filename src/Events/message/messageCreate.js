@@ -21,6 +21,20 @@ module.exports = {
         const command = client.prefixcommands.get(cmd) || client.prefixcommands.get(client.cmdaliases.get(cmd));
 
         if (command) {
+
+            if (message.guild) {
+                const userPermCheck = command.UserPerms;
+                if (userPermCheck) {
+                    console.log(message.channel.permissionsFor(message.member));
+                    const missing = message.member.permissions.missing(userPermCheck);
+                    console.log(missing);
+
+                    if (missing.length) {
+                        return message.reply(`You are missing \`${missing.join(',')}\`  permissions, you need them to use this command!`);
+                    }
+                }
+            }
+
             command.run(message, args, client);
         }
 

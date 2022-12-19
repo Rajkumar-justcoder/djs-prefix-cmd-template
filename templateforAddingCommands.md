@@ -1,11 +1,14 @@
 ## An template for adding commands 
 ```js
-const { Client, Message } = require('discord.js');
+const { Client, Message,PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
     name: 'cmd name',
     description: 'cmd description',
     aliases: [], // for aliases if any 
+    UserPerms: PermissionFlagsBits.KickMembers,
+    //any permission u want to need to use this command
+    //  add this UserPerms to that command where u need specific permission  to run cmd else remove it or comment it 
     /**
      * @param {Message} message message
      * @param {Client} client client
